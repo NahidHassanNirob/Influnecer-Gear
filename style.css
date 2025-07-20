@@ -1,0 +1,415 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.poppins {
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    max-width: 1400px;
+    margin: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo h2 {
+    font-weight: bold;
+    font-size: 24px;
+
+
+}
+
+svg {
+    fill: black;
+}
+
+ul {
+    text-transform: capitalize;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* banner style */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: 50px 80px;
+    align-items: center;
+
+}
+
+.content {
+    max-width: 50%;
+
+}
+
+.content h2, .content2 h2 {
+    font-size: 52px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.second {
+    margin: 10px 0;
+}
+
+.content p, .content2 p {
+    font-family: sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: rgb(78, 76, 76);
+    line-height: 23px;
+}
+
+.content button, .content2 button {
+    background-color: #E02C6D;
+    padding: 10px 24px;
+    border: 1px solid #E02C6D;
+    color: white;
+    margin: 8px 0;
+    border-radius: 7px;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.imges {
+    background-image: url(influencer-gear/images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 300px;
+    width: 500px;
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imges img {
+    max-height: 100%;
+
+
+}
+
+/* end banner style */
+
+/* logos style */
+.logos {
+    max-width: 1400px;
+    margin: 50px 80px;
+    border-top: 1px solid rgb(233, 228, 228);
+    border-bottom: 1px solid rgb(233, 228, 228);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+/* card section */
+.main-card {
+    max-width: 1400px;
+    margin: 50px 80px;
+
+}
+
+.main-card .card-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 50px 0 20px;
+    text-transform: capitalize;
+}
+
+.card {
+
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* justify-content: space-between; */
+    gap: 40px;
+}
+
+.card div .card-bg-img {
+    width: 100%;
+}
+
+.card .box {
+    padding: 20px;
+
+    background-color: #ffff;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    border-radius: 7px;
+    justify-content: center;
+
+}
+
+.card div .gold {
+    color: gold;
+    font-size: 22px;
+
+}
+
+.card div h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.card div p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    margin: 0 0;
+}
+
+.card div .rate {
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    margin: 0 5px;
+}
+
+.card div .shift {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    color: rgb(56, 55, 55);
+
+}
+
+
+/* end card style */
+.buttom-banner {
+    max-width: 1400px;
+    margin: 100px 80px;
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+
+.buttom-banner .content2 {
+    max-width: 50%;
+}
+
+/* start footer */
+footer {
+    width: 100%;
+    background-color: #0A0826;
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer div {
+    text-align: center;
+}
+
+footer div h2 {
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin: 0 0 8px;
+}
+
+footer div p {
+    font-family: sans-serif;
+    color: rgb(174, 172, 172);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+footer div img {
+    height: 30px;
+    margin: 10px;
+
+}
+
+/* responsibe desing */
+/* 2xl devices */
+@media (max-width:1536px) {}
+
+/* xl devices */
+@media (max-width:1280px) {}
+
+/* lg devices */
+@media (max-width:1024px) {}
+
+/* md devices */
+@media (max-width:835px) {
+    nav {
+        flex-direction: column;
+    }
+
+    .content h2, .content2 h2 {
+        font-size: 30px;
+    }
+
+    .content p, .content2 p {
+        font-size: 14px;
+        margin-top: 10px;
+    }
+
+    .content button, .content2 button {
+        font-size: 14px;
+        padding: 8px 15px;
+    }
+
+    .imges img {
+        height: 80%;
+    }
+
+    .imges {
+        width: 400px;
+        height: 300px;
+    }
+    nav{
+        max-width: 100%;
+        margin:20px 0;
+    }
+    ul{
+        background-color: rgb(176, 89, 247);
+        color: white;
+        width: 100vw;
+        margin: 0;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+    svg{
+        fill: white;
+    }
+
+    
+
+}
+@media (max-width:768px) {
+    .banner{
+        gap: 20px;
+    }
+    
+}
+
+/* sm devices */
+@media (max-width:640px) {
+    ul{
+        gap: auto;
+    }
+    .banner {
+        flex-direction:column-reverse;
+        max-width: 100%;
+        margin: 20px 0;
+    }
+    .content{
+        margin-top: 10px;
+        text-align: center;
+    }
+    .content p{
+        text-align: justify;
+        font-size: 16px;
+    }
+    .content h2, .content2 h2{
+        font-size: 24px;
+    }
+    .content p, .content2 p {
+        font-size: 16px;
+    }
+    .imges{
+        height: 250px;
+        width: 350px;
+    }
+    .imges img{
+        height: 75%;
+    }
+    .content{
+        max-width: 70%;
+    }
+    nav{
+        margin: 10px ;
+    }
+    footer div p {
+        font-size: 14px;
+    }
+    
+footer div img{
+    height: 25px;
+    margin: 8px;
+}
+    
+}
+@media (max-width:425px) {
+        .imges{
+        height: 200px;
+        width: 300px;
+    }
+    .imges img{
+        height: 75%;
+    }
+    ul{
+        height: auto;
+        flex-direction: column;
+        justify-content:flex-start;
+        padding: 10px 0;
+        
+        
+        
+        
+    }
+    .content{
+        max-width: 80%;
+    }
+   
+    
+    .banner {
+        margin: 0 ;
+    }
+    ul{
+        gap: 25px;
+        font-size: 14px;
+    }
+    .content h2, .content2 h2 {
+        font-size: 20px;
+    }
+    footer div h2{
+        font-size: 20px;
+    }
+    .logo h2{
+        font-size: 20px;
+    }
+    .content button, .content2 button{
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+    .content p, .content2 p {
+        font-size: 14px;
+    }
+    footer div p {
+        font-size: 12px;
+    }
+    
+footer div img{
+    height: 20px;
+    margin: 5px;
+}
+    
+}
