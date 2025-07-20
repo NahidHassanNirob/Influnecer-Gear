@@ -263,6 +263,23 @@ footer div img {
 
 /* md devices */
 @media (max-width:835px) {
+    .content h2, .content2 h2 {
+        font-size: 30px;
+    }
+    .buttom-banner{
+        gap: 20px;
+        
+        
+    }
+    .buttom-banner .content2 {
+        width: 50%;
+    }
+     .buttom-banner div img{
+        width: 100%;
+    }
+    .buttom-banner div{
+        width: 50%;
+    }
     nav {
         flex-direction: column;
     }
@@ -314,21 +331,55 @@ footer div img {
 
 }
 @media (max-width:768px) {
+    .logos{
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        padding: 10px 0;
+        border: none;
+        
+    }
     .banner{
         gap: 20px;
+    }
+     ul{
+        background-color: rgb(176, 89, 247);
+        color: white;
+        width: 100vw;
+        margin: 0;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
     }
     
 }
 
 /* sm devices */
 @media (max-width:640px) {
+    .buttom-banner div img{
+        height: 75%;
+    }
+    ul{
+        background-color: rgb(176, 89, 247);
+        color: white;
+        width: 100vw;
+        margin: 0;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+    }
     ul{
         gap: auto;
+    }
+      .card{
+        grid-template-columns: repeat(1,1fr);
+        gap: 30px;
     }
     .banner {
         flex-direction:column-reverse;
         max-width: 100%;
         margin: 20px 0;
+        justify-content: center;
     }
     .content{
         margin-top: 10px;
