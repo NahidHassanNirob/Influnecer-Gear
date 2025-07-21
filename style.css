@@ -155,7 +155,7 @@ ul {
     padding: 20px;
 
     background-color: #ffff;
-    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+    box-shadow: rgba(205, 209, 211, 0.12) 0px 2px 4px 0px, rgba(175, 179, 180, 0.32) 0px 2px 16px 0px;
     border-radius: 7px;
     justify-content: center;
 
@@ -255,8 +255,8 @@ footer div img {
 
 /* lg devices */
 @media (max-width:992px) {
-     .card{
-        grid-template-columns: repeat(2,1fr);
+    .card {
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
 }
@@ -266,20 +266,22 @@ footer div img {
     .content h2, .content2 h2 {
         font-size: 30px;
     }
-    .buttom-banner{
-        gap: 20px;
-        
-        
-    }
+
+    .buttom-banner {}
+
     .buttom-banner .content2 {
         width: 50%;
     }
-     .buttom-banner div img{
+
+    .buttom-banner div img {
         width: 100%;
+
     }
-    .buttom-banner div{
+
+    .buttom-banner div {
         width: 50%;
     }
+
     nav {
         flex-direction: column;
     }
@@ -287,8 +289,9 @@ footer div img {
     .content h2, .content2 h2 {
         font-size: 30px;
     }
-    .card{
-        grid-template-columns: repeat(2,1fr);
+
+    .card {
+        grid-template-columns: repeat(2, 1fr);
         gap: 30px;
     }
 
@@ -310,11 +313,13 @@ footer div img {
         width: 400px;
         height: 300px;
     }
-    nav{
+
+    nav {
         max-width: 100%;
-        margin:20px 0;
+        margin: 20px 0;
     }
-    ul{
+
+    ul {
         background-color: rgb(176, 89, 247);
         color: white;
         width: 100vw;
@@ -323,26 +328,30 @@ footer div img {
         align-items: center;
         justify-content: center;
     }
-    svg{
+
+    svg {
         fill: white;
     }
 
-    
+
 
 }
+
 @media (max-width:768px) {
-    .logos{
+    .logos {
         flex-direction: column;
         gap: 20px;
         height: auto;
         padding: 10px 0;
         border: none;
-        
+
     }
-    .banner{
+
+    .banner {
         gap: 20px;
     }
-     ul{
+
+    ul {
         background-color: rgb(176, 89, 247);
         color: white;
         width: 100vw;
@@ -351,15 +360,22 @@ footer div img {
         align-items: center;
         justify-content: center;
     }
-    
+
 }
 
 /* sm devices */
 @media (max-width:640px) {
-    .buttom-banner div img{
+    .buttom-banner {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .buttom-banner div img {
         height: 75%;
     }
-    ul{
+
+    ul {
         background-color: rgb(176, 89, 247);
         color: white;
         width: 100vw;
@@ -368,109 +384,132 @@ footer div img {
         align-items: center;
         justify-content: center;
     }
-    ul{
+
+    ul {
         gap: auto;
     }
-      .card{
-        grid-template-columns: repeat(1,1fr);
+
+    .card {
+        grid-template-columns: repeat(1, 1fr);
         gap: 30px;
     }
+
     .banner {
-        flex-direction:column-reverse;
+        flex-direction: column-reverse;
         max-width: 100%;
         margin: 20px 0;
         justify-content: center;
     }
-    .content{
+
+    .content {
         margin-top: 10px;
         text-align: center;
     }
-    .content p{
+
+    .content p {
         text-align: justify;
         font-size: 16px;
     }
-    .content h2, .content2 h2{
+
+    .content h2, .content2 h2 {
         font-size: 24px;
     }
+
     .content p, .content2 p {
         font-size: 16px;
     }
-    .imges{
+
+    .imges {
         height: 250px;
         width: 350px;
     }
-    .imges img{
+
+    .imges img {
         height: 75%;
     }
-    .content{
+
+    .content {
         max-width: 70%;
     }
-    nav{
-        margin: 10px ;
+
+    nav {
+        margin: 10px;
     }
+
     footer div p {
         font-size: 14px;
     }
-    
-footer div img{
-    height: 25px;
-    margin: 8px;
+
+    footer div img {
+        height: 25px;
+        margin: 8px;
+    }
+
 }
-    
-}
+
 @media (max-width:425px) {
-        .imges{
+    .imges {
         height: 200px;
         width: 300px;
     }
-    .imges img{
+
+    .imges img {
         height: 75%;
     }
-    ul{
+
+    ul {
         height: auto;
         flex-direction: column;
-        justify-content:flex-start;
+        justify-content: flex-start;
         padding: 10px 0;
-        
-        
-        
-        
+
+
+
+
     }
-    .content{
+
+    .content {
         max-width: 80%;
     }
-   
-    
+
+
     .banner {
-        margin: 0 ;
+        margin: 0;
     }
-    ul{
+
+    ul {
         gap: 25px;
         font-size: 14px;
     }
+
     .content h2, .content2 h2 {
         font-size: 20px;
     }
-    footer div h2{
+
+    footer div h2 {
         font-size: 20px;
     }
-    .logo h2{
+
+    .logo h2 {
         font-size: 20px;
     }
-    .content button, .content2 button{
+
+    .content button, .content2 button {
         font-size: 12px;
         padding: 8px 10px;
     }
+
     .content p, .content2 p {
         font-size: 14px;
     }
+
     footer div p {
         font-size: 12px;
     }
-    
-footer div img{
-    height: 20px;
-    margin: 5px;
-}
-    
+
+    footer div img {
+        height: 20px;
+        margin: 5px;
+    }
+
 }
